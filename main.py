@@ -226,7 +226,7 @@ class IPhoneMTPCopier:
         estimated_seconds *= 1.2 # add 20% for folder scanning overhead
         
         # Add "approx" to indicate it's an estimate
-        return f"{self._format_time(estimated_seconds)} (approx)"
+        return f"{self._format_time(estimated_seconds)}"
     
     def copy_photos(self) -> CopyResult:
         """Esegue la copia delle foto dall'iPhone"""
@@ -284,7 +284,7 @@ class IPhoneMTPCopier:
                     avg_files_per_roll *= 1.2 # add 20% because recent folders are statistically larger
                     
                     eta = self._calculate_eta(idx, total_rolls, avg_files_per_roll)
-                    self.log(f"⏱️  Estimated time remaining: {eta} [statistical estimate, not based on actual missing files]\n")
+                    self.log(f"⏱️ Time remaining: {eta} (statistical estimate, not based on actual missing files)\n")
                     
             except Exception as e:
                 self.log(f"❌ Critical error {roll.Name}: {e}")
