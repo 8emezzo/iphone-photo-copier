@@ -37,7 +37,12 @@ The `config.json` file allows you to customize the destination folder:
 
 ## Important: MTP Limitations
 
-⚠️ **WARNING**: This program is designed to copy **ALL photos in a single session**.
+**This program is designed to copy all photos in a single session**.
+
+### Recommendations
+
+1. **Do not disconnect the iPhone during copying**
+2. **To maximize speed, complete the entire copy in a single session**
 
 ### MTP Cache Issue
 
@@ -47,10 +52,6 @@ When reconnecting the iPhone after disconnecting:
 - Even already copied folders are analyzed slowly
 - The operation that was fast (thanks to cache) becomes slow again
 
-### Recommendations
-
-1. **Do not disconnect the iPhone during copying**
-2. **To maximize speed, complete the entire copy in a single session**
 
 ## Features
 
