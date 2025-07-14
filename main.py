@@ -284,7 +284,7 @@ class IPhoneMTPCopier:
                     avg_files_per_roll *= 1.2 # add 20% because recent folders are statistically larger
                     
                     eta = self._calculate_eta(idx, total_rolls, avg_files_per_roll)
-                    self.log(f"⏱️ Time remaining: {eta}\n")
+                    self.log(f"⏱️ Time remaining: {eta}")
                     self.log(f"(statistical estimate, not based on actual missing files)\n")
                     
             except Exception as e:
