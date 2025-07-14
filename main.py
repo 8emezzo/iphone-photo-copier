@@ -47,7 +47,7 @@ class IPhoneMTPCopier:
                 config = json.load(f)
                 
             if config.get('use_desktop', True):
-                return os.path.join(self.desktop, 'photo_iphone')
+                return os.path.join(self.desktop, 'iphone_photo_copier')
             else:
                 custom_path = config.get('custom_path', '')
                 if custom_path and os.path.exists(os.path.dirname(custom_path)):

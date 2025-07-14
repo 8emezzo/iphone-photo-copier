@@ -1,6 +1,6 @@
 # iPhone Photo Copier
 
-A Python program to copy all photos from iPhone to Windows.
+A Python program to copy all photos from iPhone to Windows via MTP protocol.
 
 ## Requirements
 
@@ -12,7 +12,7 @@ A Python program to copy all photos from iPhone to Windows.
 ## Usage
 
 ### Method 1: Batch file (Windows)
-Double-click the `copy_all_photo_iphone.bat` file
+Double-click the `iphone_photo_copier.bat` file
 
 ### Method 2: Command line
 ```bash
