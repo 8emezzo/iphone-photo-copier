@@ -281,8 +281,6 @@ class IPhoneMTPCopier:
                 # Mostra ETA dopo ogni cartella processata (solo se ci sono stati file copiati)
                 if idx < total_rolls and self.files_copied_total > 0 and status != "saltata":
                     avg_files_per_roll = total_files_in_rolls / rolls_with_files if rolls_with_files > 0 else 0
-                    avg_files_per_roll *= 1.2 # add 20% because recent folders are statistically larger
-                    
                     eta = self._calculate_eta(idx, total_rolls, avg_files_per_roll)
                     self.log(f"⏱️ Time remaining: {eta} (statistical estimate)\n")
                     
