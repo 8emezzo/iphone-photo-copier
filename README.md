@@ -35,14 +35,14 @@ The `config.json` file allows you to customize the destination folder:
 - If `use_desktop` is `true`, photos are copied to `Desktop/iphone_photo_copier`
 - If `use_desktop` is `false`, the path in `custom_path` is used
 
-## Important: MTP Limitations
+## Note
 
 **This program is designed to copy all photos in a single session**.
 
 ### Recommendations
 
-1. **Do not disconnect the iPhone during copying**
-2. **To maximize speed, complete the entire copy in a single session**
+1. Do not disconnect the iPhone during copying
+2. To maximize speed, complete the entire copy in a single session
 
 ### MTP Cache Issue
 
