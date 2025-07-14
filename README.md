@@ -1,6 +1,6 @@
 # iPhone Photo Copier
 
-A Python program to copy all photos from iPhone to Windows via MTP protocol.
+A Python program to copy all photos from iPhone to Windows.
 
 ## Requirements
 
