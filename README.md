@@ -19,7 +19,7 @@ Double-click the `iphone_photo_copier.bat` file
 python main.py
 ```
 
-The program will automatically copy all photos from the iPhone to the configured destination folder (default: `Desktop/photo_iphone`).
+The program will automatically copy all photos from the iPhone to the configured destination folder (default: `Desktop/iphone_photo_copier`).
 
 ## Configuration
 
@@ -32,7 +32,7 @@ The `config.json` file allows you to customize the destination folder:
 }
 ```
 
-- If `use_desktop` is `true`, photos are copied to `Desktop/photo_iphone`
+- If `use_desktop` is `true`, photos are copied to `Desktop/iphone_photo_copier`
 - If `use_desktop` is `false`, the path in `custom_path` is used
 
 ## Important: MTP Limitations
